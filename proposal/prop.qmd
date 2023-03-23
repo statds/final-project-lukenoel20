@@ -7,10 +7,16 @@ format:
 ---
 
 # Introduction
-
+The topic I have chosen is centered around the 311 Service Requests dataset from NYC Open Data, and I will be specifically looking at the "Complaint Type" column. I have chosen this topic because when exploring this dataset for the midterm, I found it interesting to see the different types of complaints people would call in to 311 and which were the most popular ones. I also saw that there were many noise related complaints and I am going to hone in on those in this project.
 
 # Specific Aims
 
+I have a few research questions I thought of all based on the "complaint type" column:
+
++ What are the most popular complaint types?
++ Do noise complaints specifically vary across boroughs?
++ Where would be best to live with the least amount of complaints?
++ Is there a relationship between time of day and frequency of certain complaint types?
 
 # Data Description
 
