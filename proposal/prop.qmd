@@ -1,6 +1,24 @@
 ---
 title: Final Project Proposal
 author: Luke Noel
+format:
+  html:
+    embed-resources: true
 ---
 
-# Research Question
+# Introduction
+
+
+# Specific Aims
+
+
+# Data Description
+
+
+# Research Design/Methods
+
+
+# Discussion
+
+
+# Conclusion
