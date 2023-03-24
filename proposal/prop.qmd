@@ -20,6 +20,7 @@ I have a few research questions I thought of all based on the "complaint type" c
 
 # Data Description
 
+I will be using the 311 Service Requests dataset from NYC Open Data, filtered to only include requests made from 1/15/2023 to 1/21/23, just as we used in the midterm. There are 54,469 rows and 41 variables in this dataset. Most variables are categorical (including two date/time columns), with the two main numerical columns being Latitude and Longitude. The main variable of interest is the "Complaint Type" column, although I will be using some other columns like "Borough" to illustrate.
 
 # Research Design/Methods
 
