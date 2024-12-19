@@ -1,0 +1,40 @@
+---
+title: Final Project Proposal
+author: Luke Noel
+format:
+  html:
+    embed-resources: true
+---
+
+# Introduction
+The topic I have chosen is centered around the 311 Service Requests dataset from NYC Open Data, and I will be specifically looking at the "Complaint Type" column. I have chosen this topic because when exploring this dataset for the midterm, I found it interesting to see the different types of complaints people would call in to 311 and which were the most popular ones. I also saw that there were many noise related complaints and I am going to hone in on those in this project.
+
+# Specific Aims
+
+I have a few research questions I thought of all based on the "complaint type" column:
+
++ What are the most popular complaint types?
++ Do noise complaints specifically vary across boroughs?
++ Where would be best to live with the least amount of complaints?
++ Is there a relationship between time of day and frequency of certain complaint types?
+
+I think this information would be valuable for both the citizens and the NYC government to know where complaints are happening the most, among other patterns, so that they can reduce them.
+
+# Data Description
+
+I will be using the 311 Service Requests dataset from NYC Open Data, filtered to only include requests made from 1/15/2023 to 1/21/23, just as we used in the midterm. There are 54,469 rows and 41 variables in this dataset. Most variables are categorical (including two date/time columns), with the two main numerical columns being Latitude and Longitude. The main variable of interest is the "Complaint Type" column, although I will be using some other columns like "Borough" to illustrate.
+
+# Research Design/Methods
+
++ I will first look at the count of each complaint type and then create a new variable "noise" that groups all the different noise complaints together. 
++ Create visuals (bar chart), displaying the counts of each complaint.
++ Conduct statistical tests (chi-sq) to see if the amount of noise complaints significantly differ across boroughs, and to also see if there is a relationship between time of day and frequency of complaint types.
++ Display where certain complaints came from on a map.
+
+# Discussion
+
+I expect to find that noise complaints are one of the most common complaints made to 311 and that they significantly vary across boroughs.I believe that the complaint type will also have a relationship between other variables in the dataset like the hour the complaint was made, etc. A potential impact of this work would be to show the citizens of NY the places where a lot of complaints are called in so they know where not to live, park, walk, etc. If the results of my investigation are not what I expected I will still show the correct answers to what I got.
+
+# Conclusion
+
+All in all, I am proposing to dive deeper into the "Complaint Type" variable of the NYC Open Data 311 Service Requests dataset. I will display to the audience the most popular complaint types along with where they reside the most, and also hone in on noise complaints specifically. I hope to show the best places to live if you want the least number of complaints and discover relationships to the complaint types like time of day, etc.
